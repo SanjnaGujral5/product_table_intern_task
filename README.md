@@ -62,3 +62,8 @@ To create an optimized production build:
 
 npm run build
 
+## Assignment Notes
+- Product titles are editable on the frontend and updates are handled in local state.
+- Infinite scrolling is implemented using the native Intersection Observer API.
+- No third-party table or scroll libraries were used.
+
