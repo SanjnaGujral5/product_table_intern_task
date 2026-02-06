@@ -47,15 +47,19 @@ A React application that fetches product data from a public API and displays it 
 
    Install dependencies
 2. npm install
-# or
-yarn
+
 
 3. Run the development server
 
 npm run dev
-# or
-yarn dev
+
 4. Open http://localhost:3000
  (CRA) or http://localhost:5173
  (Vite) in your browser to see the app.
-5. npm run build
+ 
+5. Build for Production
+
+To create an optimized production build:
+
+npm run build
+
