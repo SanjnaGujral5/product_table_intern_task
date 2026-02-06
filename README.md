@@ -24,7 +24,7 @@ A React application that fetches product data from a public API and displays it 
 
 - React (Functional Components + Hooks)
 - Vite (or Create React App)
-- JavaScript (ES6+)
+- JavaScript 
 - CSS (basic styling)
 - Fetch API for data retrieval
 
@@ -34,8 +34,8 @@ A React application that fetches product data from a public API and displays it 
 
 ### Prerequisites
 
-- Node.js (v14+ recommended)
-- npm or yarn package manager
+- Node.js 
+- npm
 
 ### Installation
 
@@ -53,8 +53,7 @@ A React application that fetches product data from a public API and displays it 
 
 npm run dev
 
-4. Open http://localhost:3000
- (CRA) or http://localhost:5173
+4. Open http://localhost:5173
  (Vite) in your browser to see the app.
  
 5. Build for Production
