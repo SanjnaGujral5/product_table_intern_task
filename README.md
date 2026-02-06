@@ -1,16 +1,61 @@
-# React + Vite
+# Product Table with Infinite Scroll
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that fetches product data from a public API and displays it in an editable table with infinite scrolling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+[View the deployed app here](https://product-table-intern-task.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fetches product data from https://dummyjson.com/products API
+- Displays product info: Title (editable), Brand, Category, Price, Rating
+- Infinite scroll using Intersection Observer to load more products
+- Editable product titles with instant UI updates
+- Responsive and accessible table layout
+
+---
+
+## Technologies Used
+
+- React (Functional Components + Hooks)
+- Vite (or Create React App)
+- JavaScript (ES6+)
+- CSS (basic styling)
+- Fetch API for data retrieval
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14+ recommended)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/YOUR_GITHUB_USERNAME/product_table_intern_task.git
+   cd product_table_intern_task
+
+   Install dependencies
+2. npm install
+# or
+yarn
+
+3. Run the development server
+
+npm run dev
+# or
+yarn dev
+4. Open http://localhost:3000
+ (CRA) or http://localhost:5173
+ (Vite) in your browser to see the app.
+5. npm run build
